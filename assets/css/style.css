@@ -71,3 +71,88 @@ nav li:hover{
 }
 
 
+.contenido{
+    display: flex;
+    column-gap: 40px;
+    padding: 100px 20px 100px 20px;
+    background-image: url("https://woodlands-ice-cream.co.uk/wp-content/uploads/2018/09/wooden_panels-copy-2@2x.jpg");
+    background-size: 100%;
+
+}
+
+
+.col-1{
+    flex-basis: 24.6%;
+}
+
+.col-2{
+    flex-basis: 49.8%;
+
+}
+
+.imagen{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.galeria{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows:     300px    300px;
+}
+
+.caja{
+    background-color: lightgoldenrodyellow;
+}
+
+.A {
+    grid-column: 1 / span 2;
+}
+
+.B {
+    grid-column: 3;
+    grid-row: 1/ span 2;
+}
+
+
+
+.productos{
+    display: grid;
+    place-items: center;
+    width: 1200px ;
+    grid-gap: 30px;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows:     500px  ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+
+.visual {
+    aspect-ratio: 16/9;
+    background: wheat;
+    margin: 0.5rem 0;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 1px 5px 15px -4px #000000; 
+    box-shadow: 1px 5px 15px -4px #000000;
+    padding: 1rem;
+    border-bottom-left-radius: 35px;
+  }
+
+
+  .titulo{
+      font-size: 40px;
+      color: #241f48;
+       font-family: 'Nanum Gothic', sans-serif;;
+  }
+
+  .badge{
+      color:#65c5e9;
+  }
